@@ -77,10 +77,8 @@ class Lead(SellingController):
 				"Lead", self.name, ["contact_date", "ends_on", "contact_by"], as_dict=1
 			)
 
-	def before_insert(self):
-		self.contact_doc = self.create_contact()
-
 	def after_insert(self):
+		self.contact_doc = self.create_contact()
 		self.update_links()
 
 	def update_links(self):
