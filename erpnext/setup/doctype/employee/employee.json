@@ -180,8 +180,6 @@
    "read_only": 1
   },
   {
-   "fetch_from": "user_id.user_image",
-   "fetch_if_empty": 1,
    "fieldname": "image",
    "fieldtype": "Attach Image",
    "hidden": 1,
