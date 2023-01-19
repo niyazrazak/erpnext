@@ -215,7 +215,7 @@
   },
   {
    "fieldname": "phone",
-   "fieldtype": "Data",
+   "fieldtype": "Phone",
    "label": "Phone",
    "oldfieldname": "contact_no",
    "oldfieldtype": "Data",
@@ -223,7 +223,7 @@
   },
   {
    "fieldname": "mobile_no",
-   "fieldtype": "Data",
+   "fieldtype": "Phone",
    "label": "Mobile No",
    "oldfieldname": "mobile_no",
    "oldfieldtype": "Data",

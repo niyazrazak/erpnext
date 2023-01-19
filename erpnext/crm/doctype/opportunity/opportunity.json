@@ -304,7 +304,7 @@
   },
   {
    "fieldname": "contact_mobile",
-   "fieldtype": "Data",
+   "fieldtype": "Phone",
    "label": "Contact Mobile",
    "options": "Phone"
   },
